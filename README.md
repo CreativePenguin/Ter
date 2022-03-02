@@ -23,7 +23,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='hhttps://github.com/CreativePenguin/Ter/blob/main/TerGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Twitter - Part II
 
@@ -49,4 +49,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/TerGif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/CreativePenguin/Ter/blob/main/TerGif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
