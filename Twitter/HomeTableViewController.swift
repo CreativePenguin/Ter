@@ -17,6 +17,7 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.rowHeight = 120
+        numberOfTweet = 20
         
         loadTweet()
         // Uncomment the following line to preserve selection between presentations
@@ -26,9 +27,14 @@ class HomeTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.loadTweet()
+    }
+    
     func loadTweet() {
         let myUrl = "https://api.twitter.com/1.1/statuses/home_timeline.json"
-        let parameters = ["count": 10]
+        let parameters = ["count": numberOfTweet]
         
         TwitterAPICaller.client?.getDictionariesRequest(url: myUrl, parameters: parameters, success: {
             (tweets: [NSDictionary]) in
